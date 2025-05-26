@@ -1,0 +1,35 @@
+---
+galaxy_info:
+
+    role_name: dotfiles-devenv
+    namespace: gbraad
+
+    author: Gerard Braad
+    description: Runs devenv from my dotfiles to start instant development environments
+    company: gbraad.nl
+    license: MIT
+    min_ansible_version: "2.9"
+
+    platforms:
+        - name: EL
+          versions:
+              - all
+        - name: Fedora
+          versions:
+              - all
+        - name: Amazon
+          versions:
+              - all
+        - name: Debian
+          versions:
+              - all
+        - name: Ubuntu
+          versions:
+              - all
+
+    galaxy_tags:
+        - dotfiles
+        - development
+        - containers
+
+dependencies: []
