@@ -1,5 +1,5 @@
 ---
-- name: Run devenv command
+- name: Run devenv command - {{prefix}} {{command}} {{args}}
   ansible.builtin.shell: |
     source ~/.dotfiles/source.sh
     devenv {{ prefix }} {{ command }} {{ args }}
