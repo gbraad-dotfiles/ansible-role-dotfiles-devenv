@@ -1,3 +1,4 @@
 ---
 devenv_name: "{{ name | default(prefix) }}"
-devenv_command: "{{ command | default(action) }}"
+devenv_command: "{{ command | default(action, true) | default('start') }}"
+
