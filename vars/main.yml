@@ -1,1 +1,2 @@
 ---
+devenv_name: "{{ name | default(prefix) }}"
